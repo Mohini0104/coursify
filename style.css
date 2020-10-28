@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+*{
+    text-decoration: none !important;
+}
+.nav .logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    margin-top: -10px;
+    height: 50px;
+    width: 70px;
+}
+.logo h3{
+    margin-left: -20px;
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0px 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight:600 ;
+    color: rgb(54, 53, 53);
+}
+
+.nav  h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+/* ______________________________________LANDING CSS______________________________________ */
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10w 0 10vw;
+    height: 100vh;
+    margin-left: 79px;
+    
+}
+
+.landingText .btn{
+width: 210px;
+margin-top: 30px;
+font-size: 1.2vw;
+padding: 10px;
+background-color: #E8286B;
+text-align: center;
+border-radius: 20px;
+}
+.landingText .btn a{
+    font-size: 1vw;
+    color: #fff;
+}
+.landingImage img{
+width: 45vw;
+}
+/* -----------------card--------------- */
+.card{
+    background-color: #fff;
+    box-shadow: 0px 19px 38px rgba(0,0,0,0.10);
+}
+/* -------------------About Css--------------- */
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutImage{
+    margin-left: 30px;
+    width: 30vw;
+    
+}
+
+/* -------------------------dOUBT Clearnace---------------- */
+.list_img_1 img{
+height: 60px;
+margin-left: -30px;
+}
+.list_img_2 img{
+height: 50px;
+margin-left: -30px;
+}
+.about_ol{
+    font-weight: bold;
+    color: #5a5858 ;
+}
+.about_ol .text_list{
+    margin-left: 40px;
+    margin-top: 5px;
+    color: #696969;
+    font-size: 0.9rem;
+}
+
+/* ---------------------Live List----------------- */
+.live_list img{
+    height: 70px;
+}
+.live_list span{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    font-weight: 700;
+    color: #5a5858;
+}
+.live_list p{
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-left: 140px;
+    font-weight: 500;
+    color: #696969;
+}
+/* ---------------preparation------------------- */
+.sub_container .card_title{
+    font-size: 1rem;
+    font-weight: 700;
+}
